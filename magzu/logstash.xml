@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
 <Beta>False</Beta>
-<Category>Downloaders: MediaApp:Video</Category>
+<Category>Other</Category>
   <Name>Logstash</Name>
   <Description>
     Logstash is a tool that can be used to collect, process and forward events and log messages. Collection is accomplished via number of configurable input plugins including raw socket/packet communication, file tailing and several message bus clients. Once an input plugin has collected data it can be processed by any number of filters which modify and annotate the event data. Finally events are routed to output plugins which can forward the events to a variety of external programs including Elasticsearch, local files and several message bus implementations.
@@ -12,7 +12,7 @@
   <Support></Support>
   <Registry>https://hub.docker.com/r/_/logstash/</Registry>
   <GitHub>https://github.com/docker-library/logstash</GitHub>
-  <Repository>_/logstash</Repository>
+  <Repository>library/logstash</Repository>
   <Project>https://github.com/docker-library/logstash</Project>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
