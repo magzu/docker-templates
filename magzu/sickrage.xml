@@ -15,7 +15,7 @@
   </Overview>
   <Support>http://lime-technology.com/forum/index.php?topic=45847.0</Support>
   <Registry>https://hub.docker.com/r/sickrage/sickrage/</Registry>
-  <GitHub>https://git.sickrage.ca/SiCKRAGE/sickrage-docker.git</GitHub>
+  <GitHub>https://github.com/SiCKRAGETV/SiCKRAGE</GitHub>
   <Repository>magzu/sickrage</Repository>
   <Project>https://github.com/sickRage/SickRage</Project>
   <BindTime>true</BindTime>
