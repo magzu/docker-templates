@@ -4,12 +4,12 @@
 <Category>Downloaders: MediaApp:Video</Category>
   <Name>Logstash</Name>
   <Description>
-    Logstash temp description
+    Logstash is a tool that can be used to collect, process and forward events and log messages. Collection is accomplished via number of configurable input plugins including raw socket/packet communication, file tailing and several message bus clients. Once an input plugin has collected data it can be processed by any number of filters which modify and annotate the event data. Finally events are routed to output plugins which can forward the events to a variety of external programs including Elasticsearch, local files and several message bus implementations.
   </Description>
   <Overview>
-    SickRage is a Video File Manager for TV Shows, It watches for new episodes of your favorite shows and when they are posted it does its magic. SickRage is currently in beta release stage. There may be severe bugs in it and at any given time it may not work at all.
+    Logstash temp overview
   </Overview>
-  <Support>http://lime-technology.com/forum/index.php?topic=45847.0</Support>
+  <Support></Support>
   <Registry>https://hub.docker.com/r/_/logstash/</Registry>
   <GitHub>https://github.com/docker-library/logstash</GitHub>
   <Repository>_/logstash</Repository>
@@ -20,43 +20,20 @@
     <Mode>bridge</Mode>
     <Publish>
       <Port>
-        <HostPort>8081</HostPort>
-        <ContainerPort>8081</ContainerPort>
+        <HostPort>9300</HostPort>
+        <ContainerPort>9300</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
     </Publish>
   </Networking>
   <Environment>
-    <Variable>
-      <Name>PUID</Name>
-      <Value>99</Value>
-    </Variable>
-    <Variable>
-      <Name>PGID</Name>
-      <Value>100</Value>
-    </Variable>
   </Environment>
   <Data>
-    <Volume>
-      <HostDir>/mnt/cache/appdata/config</HostDir>
-      <ContainerDir>/config</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/cache/appdata/data</HostDir>
-      <ContainerDir>/data</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/user</HostDir>
-      <ContainerDir>/media</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
   </Data>
-  <WebUI>http://[IP]:[PORT:8081]/</WebUI>
-  <Icon>https://raw.githubusercontent.com/binhex/docker-templates/master/binhex/images/sickrage-icon.png</Icon>
-  <DonateText>If you appreciate my work, then please consider buying me a beer :D</DonateText>
-  <DonateLink>https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=MM5E27UX6AUU4</DonateLink>
-  <DonateImg>https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif</DonateImg>
+  <WebUI>http://[IP]:[PORT:9300]/</WebUI>
+  <Icon>https://raw.githubusercontent.com/docker-library/docs/3a5ee2af49550e2c692a15c339725b4967720db1/logstash/logo.png</Icon>
+  <DonateText></DonateText>
+  <DonateLink></DonateLink>
+  <DonateImg></DonateImg>
   <ExtraParams></ExtraParams>
 </Containers>
