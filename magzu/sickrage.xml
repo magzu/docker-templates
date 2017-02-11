@@ -2,7 +2,7 @@
 <Containers>
 <Beta>False</Beta>
 <Category>Downloaders: MediaApp:Video</Category>
-  <Name>binhex-sickrage</Name>
+  <Name>magzu-sickrage</Name>
   <Description>
     SickRage is a Video File Manager for TV Shows, It watches for new episodes of your favorite shows and when they are posted it does its magic. SickRage is currently in beta release stage. There may be severe bugs in it and at any given time it may not work at all.[br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
@@ -14,9 +14,9 @@
     SickRage is a Video File Manager for TV Shows, It watches for new episodes of your favorite shows and when they are posted it does its magic. SickRage is currently in beta release stage. There may be severe bugs in it and at any given time it may not work at all.
   </Overview>
   <Support>http://lime-technology.com/forum/index.php?topic=45847.0</Support>
-  <Registry>https://registry.hub.docker.com/u/binhex/arch-sickrage/</Registry>
+  <Registry>https://hub.docker.com/r/sickrage/sickrage/</Registry>
   <GitHub>https://git.sickrage.ca/SiCKRAGE/sickrage-docker.git</GitHub>
-  <Repository>binhex/arch-sickrage</Repository>
+  <Repository>magzu/sickrage</Repository>
   <Project>https://github.com/sickRage/SickRage</Project>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
