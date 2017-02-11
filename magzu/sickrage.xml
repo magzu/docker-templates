@@ -2,7 +2,7 @@
 <Containers>
 <Beta>False</Beta>
 <Category>Downloaders: MediaApp:Video</Category>
-  <Name>magzu-sickrage</Name>
+  <Name>sickrage</Name>
   <Description>
     SickRage is a Video File Manager for TV Shows, It watches for new episodes of your favorite shows and when they are posted it does its magic. SickRage is currently in beta release stage. There may be severe bugs in it and at any given time it may not work at all.[br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
