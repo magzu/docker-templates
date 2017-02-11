@@ -2,7 +2,7 @@
 <Containers>
 <Beta>False</Beta>
 <Category>Downloaders: MediaApp:Video</Category>
-  <Name>sickrage</Name>
+  <Name>sickrage_New</Name>
   <Description>
     SickRage is a Video File Manager for TV Shows, It watches for new episodes of your favorite shows and when they are posted it does its magic. SickRage is currently in beta release stage. There may be severe bugs in it and at any given time it may not work at all.[br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
@@ -16,7 +16,7 @@
   <Support>http://lime-technology.com/forum/index.php?topic=45847.0</Support>
   <Registry>https://hub.docker.com/r/sickrage/sickrage/</Registry>
   <GitHub>https://github.com/SiCKRAGETV/SiCKRAGE</GitHub>
-  <Repository>SiCKRAGETV/SiCKRAGE</Repository>
+  <Repository>sickrage/sickrage</Repository>
   <Project>https://github.com/sickRage/SickRage</Project>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
